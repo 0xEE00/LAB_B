@@ -3,6 +3,6 @@ codeunit 50102 MyNewCodeunit
     [EventSubscriber(ObjectType::Table, 18, 'OnAfterInsertEvent', '', true, true)]
     local procedure CustomerOnAfterInsert(var Rec: Record Customer; RunTrigger: Boolean);
     begin
-        Message('some message');
+        Message('Pozdrav');
     end;
 }
